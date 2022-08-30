@@ -31,8 +31,11 @@
 #carousel-nav {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     position: relative;
     z-index: 1;
+    height: 100%;
+    align-items: center;
 }
 
 /* TODO - raggruppa in classe proprietà in comune tra ID*/
