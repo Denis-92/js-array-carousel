@@ -31,15 +31,19 @@
 #carousel-nav {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 1;
 }
 
 /* TODO - raggruppa in classe proprietà in comune tra ID*/
 #scroll-up {
     margin: 10px;
-    font-size: 50px;
+    font-size: 30px;
+    padding: 5px 20px;
 }
 
 #scroll-down {
     margin: 10px;
-    font-size: 50px;
+    font-size: 30px;
+    padding: 5px 20px;
 }
