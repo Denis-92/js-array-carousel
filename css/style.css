@@ -10,7 +10,7 @@
 }
 
 .images {
-    height: 50vh;
+    height: 70vh;
     position: relative;
 }
 
@@ -21,4 +21,9 @@
     position: absolute;
     left: 0;
     top: 0;
+    display: none;
+}
+
+.active.carousel-element {
+    display: inline-block;
 }
