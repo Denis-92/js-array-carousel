@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 
-.images {
+#wrap-carousel {
     height: 70vh;
     position: relative;
 }
@@ -26,4 +26,20 @@
 
 .active.carousel-element {
     display: inline-block;
+}
+
+#carousel-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TODO - raggruppa in classe proprietà in comune tra ID*/
+#scroll-up {
+    margin: 10px;
+    font-size: 50px;
+}
+
+#scroll-down {
+    margin: 10px;
+    font-size: 50px;
 }
